@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --cor-de-fundo-do-titulo: darkblue;
     --cor-do-texto-do-titulo: darkblue;
@@ -37,19 +43,26 @@ main {
 }
 
 aside {
+    position: relative;
     width: 20rem;
-    margin: 1rem;
-    padding: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    background-color: gainsboro;
+    text-align: center;
+
 }
 
 aside img {
+
     width: 200px;
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 85px;
+}
+
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: var(--border);
@@ -65,4 +78,14 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/*seletores de classe */
+.caixa {
+    clear: both;
+    margin: 1 rem;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    background-color: #eee;
+    color: #333;
 }
