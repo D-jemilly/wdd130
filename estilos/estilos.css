@@ -1,11 +1,12 @@
 :root {
-    --cor-de-fundo-do-titulo: ;
+    --cor-de-fundo-do-titulo: darkblue;
     --cor-do-texto-do-titulo: darkblue;
-    --fonte-titulo: Monster;
+    --padding: 2px;
+    --border: 1px solid black;
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--cor-de-fundo-do-titulo);
     padding: 10px;
 }
 
@@ -16,14 +17,14 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--cor-do-texto-do-titulo);
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
+    border: var(--border);
+    padding: var(--padding);
     box-shadow: 0 0 30px gray;
 }
 
@@ -51,8 +52,8 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
+    border: var(--border);
+    padding: var(--padding);
     box-shadow: 0 0 30px gray;
 }
 
