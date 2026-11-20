@@ -1,7 +1,5 @@
 :root {
     --cor-primaria: #055a05;
-    --cor-segundaria: #f4a261;
-    --cor-destaque1: #264653;
     --cor-destaque2: #e9c46a;
     --font-titulo: Times, Georgia, serif;
     --font-body: arial, helvetica, sans-serif;
@@ -60,7 +58,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.8;
     background-color: var(--cor-destaque1);
     color: #ffff;
 }
