@@ -1,6 +1,6 @@
 :root {
     --cor-primaria: #055a05;
-    --cor-destaque2: #e9c46a;
+    --cor-destaque1: #e9c46a;
     --font-titulo: Times, Georgia, serif;
     --font-body: arial, helvetica, sans-serif;
 }
@@ -53,7 +53,6 @@ article {
 }
 
 h1 {
-    position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -61,6 +60,7 @@ h1 {
     opacity: 0.8;
     background-color: var(--cor-destaque1);
     color: #ffff;
+    position: absolute;
 }
 
 .hero article img {
