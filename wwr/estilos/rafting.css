@@ -26,8 +26,7 @@ footer {
 }
 
 h1,
-h2,
-h3 {
+h2 {
     font-family: var(--font-titulo);
     color: var(--cor-primaria);
     text-align: center;
@@ -68,5 +67,12 @@ h1 {
 
 .hero article img {
     float: right;
+    width: 250px;
+}
+
+img {
     width: 125px;
+    height: auto;
+    padding: 2px;
+    float: none;
 }
